@@ -167,3 +167,11 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
++ Revision: 813654
+- Import texlive-lua2dox
+- Import texlive-lua2dox
+
