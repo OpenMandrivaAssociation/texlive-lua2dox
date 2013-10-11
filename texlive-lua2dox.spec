@@ -1,11 +1,11 @@
-# revision 27205
+# revision 29349
 # category Package
 # catalog-ctan /web/lua2dox
-# catalog-date 2012-07-21 10:40:57 +0200
+# catalog-date 2013-02-07 14:27:08 +0100
 # catalog-license lppl1.3
-# catalog-version 0.1
+# catalog-version 0.2
 Name:		texlive-lua2dox
-Version:	0.1
+Version:	0.2
 Release:	1
 Summary:	Auto-documentation of lua code
 Group:		Publishing
@@ -45,28 +45,75 @@ which will process joint (La)TeX/lua documents.
 %{_bindir}/lua2dox_lua
 %{_texmfdistdir}/scripts/lua2dox/lua.def
 %{_texmfdistdir}/scripts/lua2dox/lua2dox.lua
-%{_texmfdistdir}/scripts/lua2dox/lua2dox_lua
+%{_texmfdistdir}/scripts/lua2dox/lua2dox_filter
+%doc %{_texmfdistdir}/doc/support/lua2dox/ChangeLog
 %doc %{_texmfdistdir}/doc/support/lua2dox/Doxyfile
-%doc %{_texmfdistdir}/doc/support/lua2dox/INSTALL
 %doc %{_texmfdistdir}/doc/support/lua2dox/README
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/annotated.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/bc_s.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/bdwn.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTApp-members.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTApp.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTCore__Clock-members.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTCore__Clock.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTCore__Commandline-members.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTCore__Commandline.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTCore__IO.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTLua2DoX__filter-members.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTLua2DoX__filter.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTStream__Read-members.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTStream__Read.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTStream__Write-members.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classTStream__Write.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/classes.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/closed.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/doxygen.css
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/doxygen.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/dynsections.js
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/files.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2blank.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2cl.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2doc.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2folderclosed.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2folderopen.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2lastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2link.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2mlastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2mnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2mo.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2node.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2ns.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2plastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2pnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2splitbar.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/ftv2vertline.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/functions.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/functions_func.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/globals.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/globals_func.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/index.html
-%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/lua2dox_8lua-source.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/jquery.js
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/lua2dox_8lua.html
-%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tab_b.gif
-%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tab_l.gif
-%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tab_r.gif
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/lua2dox_8lua_source.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/nav_f.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/nav_g.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/nav_h.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/open.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/sync_off.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/sync_on.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tab_a.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tab_b.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tab_h.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tab_s.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/docs/html/tabs.css
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/Doxyfile
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/animals.lua
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/class.lua
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/animals_8lua-source.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/animals_8lua.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/animals_8lua_source.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/annotated.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/bc_s.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/bdwn.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/classAnimal-members.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/classAnimal.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/classAnimal.png
@@ -88,29 +135,58 @@ which will process joint (La)TeX/lua documents.
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/classRedKite-members.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/classRedKite.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/classRedKite.png
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/class_8lua-source.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/class_8lua.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/class_8lua_source.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/classes.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/closed.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/doxygen.css
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/doxygen.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/dynsections.js
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/files.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2blank.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2cl.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2doc.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2folderclosed.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2folderopen.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2lastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2link.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2mlastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2mnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2mo.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2node.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2ns.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2plastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2pnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2splitbar.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/ftv2vertline.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/functions.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/functions_func.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/globals.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/globals_func.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/hierarchy.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/index.html
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/main_8lua-source.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/jquery.js
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/main_8lua.html
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tab_b.gif
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tab_l.gif
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tab_r.gif
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/main_8lua_source.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/nav_f.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/nav_g.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/nav_h.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/open.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/sync_off.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/sync_on.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tab_a.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tab_b.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tab_h.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tab_s.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/docs/html/tabs.css
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/lua/main.lua
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/Doxyfile
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/animals.php
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/animals_8php-source.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/animals_8php.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/animals_8php_source.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/annotated.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/bc_s.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/bdwn.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/classAnimal-members.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/classAnimal.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/classAnimal.png
@@ -132,9 +208,28 @@ which will process joint (La)TeX/lua documents.
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/classRedKite-members.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/classRedKite.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/classRedKite.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/classes.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/closed.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/doxygen.css
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/doxygen.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/dynsections.js
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/files.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2blank.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2cl.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2doc.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2folderclosed.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2folderopen.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2lastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2link.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2mlastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2mnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2mo.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2node.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2ns.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2plastnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2pnode.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2splitbar.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/ftv2vertline.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/functions.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/functions_func.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/globals.html
@@ -142,13 +237,22 @@ which will process joint (La)TeX/lua documents.
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/globals_vars.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/hierarchy.html
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/index.html
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/main_8php-source.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/jquery.js
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/main_8php.html
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tab_b.gif
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tab_l.gif
-%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tab_r.gif
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/main_8php_source.html
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/nav_f.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/nav_g.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/nav_h.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/open.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/sync_off.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/sync_on.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tab_a.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tab_b.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tab_h.png
+%doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tab_s.png
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/docs/html/tabs.css
 %doc %{_texmfdistdir}/doc/support/lua2dox/examples/php/main.php
+%doc %{_texmfdistdir}/doc/support/lua2dox/install.bat
 %doc %{_texmfdistdir}/doc/support/lua2dox/install.sh
 %doc %{_texmfdistdir}/doc/support/lua2dox/lua2dox-refm.pdf
 %doc %{_texmfdistdir}/doc/support/lua2dox/lua2dox-refm.tex
@@ -167,11 +271,3 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 813654
-- Import texlive-lua2dox
-- Import texlive-lua2dox
-
