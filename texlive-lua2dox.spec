@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-lua2dox
 Version:	0.2
-Release:	1
+Release:	2
 Summary:	Auto-documentation of lua code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/lua2dox
@@ -42,7 +42,6 @@ which will process joint (La)TeX/lua documents.
 #-----------------------------------------------------------------------
 %files
 %{_bindir}/lua2dox_filter
-%{_bindir}/lua2dox_lua
 %{_texmfdistdir}/scripts/lua2dox/lua.def
 %{_texmfdistdir}/scripts/lua2dox/lua2dox.lua
 %{_texmfdistdir}/scripts/lua2dox/lua2dox_filter
@@ -266,8 +265,7 @@ which will process joint (La)TeX/lua documents.
 %install
 mkdir -p %{buildroot}%{_bindir}
 pushd %{buildroot}%{_bindir}
-    ln -sf %{_texmfdistdir}/scripts/lua2dox/lua2dox_lua lua2dox_lua
-    ln -sf lua2dox_lua lua2dox_filter
+    ln -sf %{_texmfdistdir}/scripts/lua2dox/lua2dox_filter lua2dox_filter
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
