@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-lua2dox
 Version:	0.1
-Release:	1
+Release:	2
 Summary:	Auto-documentation of lua code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/web/lua2dox
