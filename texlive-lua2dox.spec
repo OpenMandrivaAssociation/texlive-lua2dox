@@ -9,7 +9,7 @@ Version:	0.2
 Release:	13
 Summary:	Auto-documentation of lua code
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/web/lua2dox
+URL:		https://www.ctan.org/tex-archive/web/lua2dox
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lua2dox.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lua2dox.doc.tar.xz
